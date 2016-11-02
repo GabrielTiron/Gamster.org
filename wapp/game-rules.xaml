@@ -1,0 +1,152 @@
+<Window x:Class="WpfApplication2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication2"
+        mc:Ignorable="d"
+        Title="Gamster.org - Romania" Icon="logo.png" WindowStartupLocation="Manual" WindowState="Minimized" Background="White">
+    <Grid Background="White">
+        <FlowDocumentScrollViewer Margin="63.231,135,58.231,23.923" SelectionBrush="Red" Background="#FFDADADA" RenderTransformOrigin="0.496,0.514" FontFamily="Segoe UI Light" OpacityMask="Red" Foreground="#FF701111" Cursor="None">
+            <FlowDocument>
+                <Paragraph>
+                    <Run FontFamily="Adobe Gothic Std B" Text="Regulamentul serverului de Minecraft "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="mc.gamster.org: "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Mai jos gasiti setul de reguli ce trebuiesc respectate de catre toti membri grupurilor de staff sau donator. Acest set de reguli poate fi schimbat sau i se pot aduce modificari in orice moment, iar cei in cauza au obligatia de a-l citi mereu."/>
+                </Paragraph>
+                <Paragraph>
+                    <Run/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="I. Jucatori"/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Este interzis să jigniți, amenințați, înjurați, vorbiți vulgar cu un alt jucător. Sunt sancționate și jignirile prescurtate, cenzurate, sau scrise în altă limbă. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Nu aveți voie să faceți reclamă la alte servere de jocuri, în cazul în care numiți un server în privatul altui jucător (/tell, /re, /msg, /w, sau prin &quot;books&quot;, etc.) pentru a vă întâlni pe acel server fapta se sancționează cu mute 24 de ore sau tempban 12 ore. Reclama abuzivă poate duce la banarea permanentă a contului dumneavoastră de joc. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Nu aveți voie să abuzați de butonul de CAPS LOCK, prima abatere nu se sancționată, dar în cazul abuzurilor se pedepsește cu mute. Adminii pot folosi comanda pentru a anunța un eveniment sau pentru a face un anunț important"/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Nu aveți voie să folosiți programe care pot influența atât jocul dumneavoastră cât și jocul altor jucători (Hack/Mod/Cod/Tools/etc). Doar aplicația OptiFine este permisă. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Nu aveți voie să ieșiți din joc sau arenă în timpul unei lupte, în caz contrat pierdeți toate itemele din inventar. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Nu aveți voie să înjurați sau să jigniți membri staffului. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Nu aveți voie să jucați alături de un &quot;hacker&quot; și aveți obligația de a-l raporta unui admin. în caz contrar veți fi complice la încălcarea acestei reguli. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Nu aveți voie să cereți iteme sau grade de la admini. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Nu aveți voie să vă setați casa în protecția altui jucător fără acordul acestuia. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Nu aveți voie să cereți grade pe server sau verificarea cererilor de grad pe server. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Nu aveți voie să abuzați de bugurile/problemele serverului. Dacă găsiți un bug și îl raportați în privat unui admin veți fi recompensat. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Nu aveți voie să faceți &quot;spam&quot; pe chat, asta însemnând să nu repetați același mesaj de mai multe ori.  "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Nu aveți voie să postați linkuri în chatul global, puteți să trimiteți linkuri prin mesaje private altor jucători doar da dacă linkul respectiv nu conține reclamă si nu este dăunător altor jucatori. Nu recomandăm să deschideți linkuri chiar dacă persoana respectivă vă este cunoscută sau face parte din staff. Dacă o faceți! o faceți pe propria răspundere!"/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="La întrebarea &quot;Ai citit regulamentele?&quot; de la secțiunea Cerere Grad trebuie sa răspundeți cu: &quot;Regula 14&quot;."/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Capcanele și/sau /tpa+kill sunt permise. Dacă acceptați cererea de teleportare la alt jucător O VEȚI FACE PE PROPRIA RĂSPUNDERE. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="II. Staff"/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Acest regulament îi include și este valabil și pentru donatori: Ultra, Legend sau Hero sau orice alt grad cu acces la comenzi ce pot provoca daune sau abuzuri jucătorilor sau serverului nostru."/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Nu aveți voie să vă lăudați cu gradul. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Nu aveți voie să faceți eventuri fără acordul unui administrator. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Nu aveți voie să vă adresați jucătorilor cu ba sau ma pe chatul serverului. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Nu aveți voie să abuzați de comenzi sau de grad în general (Inclusiv Donatorii). "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Nu aveți voie să folosiți comenzile: ban/unban/kick/mute/unmute/jail/unjail fără să aveți dovezi. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Nu aveți voie să jigniți/insultați/profitați/ignorați jucătorii sau ceilalți colegi din staff. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Nu aveți voie să favorizați jucătorii. Asta însemnând să nu le dați iteme din GM sau creative, să nu-i teleportați la anumite coordonate, să nu construiți pentru ei folosind WE sau să interveniți în jocul lor. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Fiecare membru trebuie să cunoască comenzile staff: -click- "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Nu aveți voie să preluați donațiile, dacă un jucător anunță pe chat că vrea să doneze aveți datoria de a-l ghida spre site-ul de donații sau către un Administrator.  "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Nu aveți voie să participați la PVP folosind sau activând comenzile fly, god, vanish, smite etc. sau orice altă comandă care vă poate oferi un anumit avantaj față de oponent. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Nu aveți voie să dați contul de STAFF altor persoane, indiferent că persoana respectivă este o rudă sau cel mai bun prieten. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Nu aveți voie să construiți pe mapele de PVP, de exemplu pe mapele de la Survival Games, 1VS1 etc. sau la spawn-ul mini-games-urilor, sub spawn-ul mini-games-urilor, deasupra spawn-urilor mini-games-urilor, fără aprobarea Administratorilor. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Conflictele dintre membri staff se rezolvă cu un administrator, nu pe forum și nici pe server. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="  "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Conducerea serverului Gamster Minecraft își rezervă dreptul de a lua decizii în afara regulamentelor, atunci când se urmărește bună funcționalitate a serverului. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold"/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="Orice daună/pagubă adusă serverului, atât financiară cât și tehnică, orice stricăciune, orice clădire sau construcție demolată sau griefata în mod intenționat pe serverul Gamster Minecraft  duce la scoaterea gradului FĂRĂ NICI UN FEL DE AVERTISMENT SAU ȘANSA DE RECUPERARE A ACESTUIA! "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="          "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="     "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text=" "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontFamily="Consolas" Text="(C) Gamster.org | mc.gamster.org"/>
+                </Paragraph>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+        <Rectangle Margin="63.231,135,58.231,23.923" Stroke="#FF515151"/>
+        <Image x:Name="image" Height="83" Margin="36.231,10,0,0" VerticalAlignment="Top" Source="logo (1).png" RenderTransformOrigin="0.484,0.494" HorizontalAlignment="Left" Width="287.769"/>
+        <TextBlock x:Name="textBlock" Height="37" Margin="36.231,93,42.231,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Bine ai venit! Aceasta aplictatie a fost conceputa special pentru regulamentul serverului de Minecraft mc.gamster.org."/><LineBreak/><Run/></TextBlock>
+        <Button x:Name="button" Content="Forum" HorizontalAlignment="Right" Height="31" Margin="0,34,199,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="button_Copy" Content="Donatii" HorizontalAlignment="Right" Height="31" Margin="0,34,42.231,0" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Window>
